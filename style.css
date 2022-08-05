@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+	font-family: "Inter", sans-serif;
+}
+p {
+	font-size: 12px;
+	line-height: 14.5px;
+}
+.center-everything {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.bg-red {
+	color: red;
+}
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	background-color: #fcfcfc;
+	border-radius: 5px;
+	border: 1px solid #dedede;
+	width: 527px;
+	height: 739px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 15px;
+	padding-bottom: 24px;
+}
+.flex-header {
+	display: flex;
+	align-items: center;
+	padding-left: 25px;
+}
+.header-info-container {
+	margin-left: 25px;
+}
+.userName {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 17px;
+}
+.header-info-container p {
+	font-size: 10px;
+}
+.swiper {
+	margin-top: 2px;
+	width: 100%;
+	height: 325px;
+}
+.icons-container {
+	height: 65px;
+	display: flex;
+	align-items: center;
+	margin-left: 25px;
+	gap: 12px;
+}
+.comment-section {
+	height: 200px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.bold-font {
+	font-weight: 600;
+}
+.comment-input-box {
+	display: flex;
+	align-items: center;
+	background-color: #f1f1f1;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 20px;
+	border-radius: 5px;
+	height: 55px;
+	width: 477px;
+	align-self: center;
+}
+.img-size {
+	height: 325px;
+	width: 100%;
+}
+
+/* Only place I'm using id, because of their Ids, if I had to do multiple CSS for different input or buttons, I would use classes */
+#commentInput {
+	background-color: #f1f1f1;
+	width: 100%;
+	margin-right: 15px;
+	margin-left: 15px;
+	border: none;
+	font-family: "Inter";
+}
+#commentInput:focus-visible {
+	outline: none;
+}
+#postBtn {
+	border: none;
+	color: #3d8aff;
+	font-weight: 700;
+	cursor: pointer;
+	margin-right: 15px;
+}
